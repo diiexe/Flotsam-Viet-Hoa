@@ -1,0 +1,22 @@
+# Build & Large Binary Assets (Tránh vượt giới hạn 100MB của GitHub)
+build/
+*.assets
+*.dll
+*.bak
+*.tmp
+*.zip
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Repomix artifacts
+repomix-output*.txt
+.repomixignore

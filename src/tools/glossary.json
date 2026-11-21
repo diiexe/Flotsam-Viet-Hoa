@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "capitalization_convention": {
+    "canonical_names": "Vietnamese Sentence Case (capitalize first word + proper nouns: Điện Lươn, Ozone, Plastech, Toxxen, Cá Đớp, Cụm bè)",
+    "color_badges_and_titles": "Title Case inside <color=...><b>...</b></color> entity badges and Quest/Achievement/Research titles; lowercase preserved for verbs/common nouns"
+  },
+  "rules": [
+    {
+      "en": "Manual Dryer",
+      "vi": "Giàn phơi thủ công",
+      "canonical_keys": [
+        "CONSTRUCTION_ManualWoodDryer_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Architect Station",
+      "vi": "Trạm kiến trúc sư",
+      "canonical_keys": [
+        "Construction_ArchitectStation_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Architect Mode",
+      "vi": "Chế độ Kiến trúc sư",
+      "canonical_keys": [
+        "Term_BlueprintMode"
+      ],
+      "exempt_keys": [],
+      "category": "UI/Mechanic"
+    },
+    {
+      "en": "Apothecary",
+      "vi": "Bàn bào chế thuốc",
+      "canonical_keys": [
+        "Construction_Apothecary_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Animal Chow Grinder",
+      "vi": "Máy nghiền thức ăn chăn nuôi",
+      "canonical_keys": [
+        "CONSTRUCTION_AnimalChowCrafter_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Fish Farm",
+      "vi": "Trại nuôi cá",
+      "canonical_keys": [
+        "CONSTRUCTION_FishFarm_Name",
+        "BUILDABLE_FishFarm_Fishfarm"
+      ],
+      "exempt_keys": [
+        "LANDMARK_Quest_Aquaculturist_Name"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Hatchery",
+      "vi": "Bể ấp trứng",
+      "canonical_keys": [
+        "BUILDABLE_FishFarm_Hatchery"
+      ],
+      "exempt_keys": [
+        "CONSTRUCTION_FishHatchery_Name"
+      ],
+      "category": "Construction/UI"
+    },
+    {
+      "en": "Nursery",
+      "vi": "Bể ươm cá",
+      "canonical_keys": [
+        "BUILDABLE_FishFarm_Nursery"
+      ],
+      "exempt_keys": [],
+      "category": "Construction/UI"
+    },
+    {
+      "en": "Brood cycle",
+      "vi": "Chu kỳ ấp nở",
+      "canonical_keys": [
+        "BUILDABLE_FishFarm_BroodCycle"
+      ],
+      "exempt_keys": [],
+      "category": "UI/Mechanic"
+    },
+    {
+      "en": "Growth cycle",
+      "vi": "Chu kỳ sinh trưởng",
+      "canonical_keys": [
+        "BUILDABLE_FishFarm_GrowthCycle"
+      ],
+      "exempt_keys": [],
+      "category": "UI/Mechanic"
+    },
+    {
+      "en": "Bio-Boiler",
+      "vi": "Nồi đun sinh học",
+      "canonical_keys": [
+        "CONSTRUCTION_BioBoiler_Name"
+      ],
+      "exempt_keys": [
+        "CONSTRUCTION_BioBoiler_Electric_Name"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Chopping Block",
+      "vi": "Bục bổ củi",
+      "canonical_keys": [
+        "Construction_ChoppingBlock_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Desalinator",
+      "vi": "Máy khử muối",
+      "canonical_keys": [
+        "Construction_Desalinator_Name"
+      ],
+      "exempt_keys": [
+        "Construction_ElectricDesalinator_Name"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Chemical Lab",
+      "vi": "Phòng thí nghiệm hóa chất",
+      "canonical_keys": [
+        "CONSTRUCTION_ChemicalLab_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Sawmill",
+      "vi": "Xưởng cưa",
+      "canonical_keys": [
+        "Construction_Sawmill_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Scrapsmith",
+      "vi": "Lò rèn phế liệu",
+      "canonical_keys": [
+        "Construction_ScrapSmith_Name"
+      ],
+      "exempt_keys": [
+        "Construction_ElectricScrapsmith_Name",
+        "RESEARCH_NODE_Scrapsmithing_Title"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Fish Kabob",
+      "vi": "Bếp xiên cá",
+      "canonical_keys": [
+        "Construction_FishBarbecue_Name"
+      ],
+      "exempt_keys": [
+        "Construction_ElectricFishKabob_Name"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Manual-Powered Generator",
+      "vi": "Máy phát điện chạy sức người",
+      "canonical_keys": [
+        "Construction_ManualPoweredGenerator_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Plastic Recycler",
+      "vi": "Máy tái chế nhựa",
+      "canonical_keys": [
+        "Construction_PlasticRecycler_Name"
+      ],
+      "exempt_keys": [
+        "DIALOG_Quest_Tutorial_Objective001_Line004_02",
+        "DIALOG_Quest_Tutorial_Objective001_Line005",
+        "DIALOG_Quest_Tutorial_Objective001_Line005_WrongAction"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Recycler",
+      "vi": "Máy tái chế",
+      "canonical_keys": [
+        "Construction_Recycler_Name"
+      ],
+      "exempt_keys": [
+        "Background_Past_Crafting_Name"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Food Truck",
+      "vi": "Xe bán đồ ăn",
+      "canonical_keys": [
+        "Construction_FoodTruck_Name"
+      ],
+      "exempt_keys": [
+        "Background_Past_ConstructionCooking_Name"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Spaceship Launch Pad",
+      "vi": "Bệ phóng tàu vũ trụ",
+      "canonical_keys": [
+        "CONSTRUCTION_SpaceshipBase_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Spaceship Fabricator",
+      "vi": "Máy chế tạo tàu vũ trụ",
+      "canonical_keys": [
+        "CONSTRUCTION_SpaceshipFabricator_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction"
+    },
+    {
+      "en": "Spaceship",
+      "vi": "Tàu vũ trụ",
+      "canonical_keys": [
+        "ITEM_SpaceshipFramework_Name",
+        "QUEST_OBJECTIVE_LaunchSpaceship"
+      ],
+      "exempt_keys": [
+        "CONSTRUCTION_SpaceshipBase_Name",
+        "CONSTRUCTION_SpaceshipFabricator_Name",
+        "ACHIEVEMENT_Quest_Spaceship_Title",
+        "QUEST_Main_SpaceshipModules_Title",
+        "QUEST_Main_SpaceshipBase_Title"
+      ],
+      "category": "Construction/Story"
+    },
+    {
+      "en": "Heat Shield",
+      "vi": "Tấm chắn nhiệt",
+      "canonical_keys": [
+        "BUILDABLE_UPGRADE_Spaceship_HeatShield_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Construction/Upgrade"
+    },
+    {
+      "en": "Ozone Shield",
+      "vi": "Lá chắn Ozone",
+      "canonical_keys": [
+        "CONSTRUCTION_OzoneShield_Name"
+      ],
+      "exempt_keys": [
+        "ITEM_OzoneShieldCapacitor_Name"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Battery",
+      "vi": "Pin dự trữ",
+      "canonical_keys": [
+        "Construction_Battery_Name"
+      ],
+      "exempt_keys": [
+        "Item_Battery_Name",
+        "Landmark_Salvage_Batteries",
+        "QUEST_Specialist_Chef_DistressSignal_Description",
+        "RADIOMESSAGE_Specialist_Chef_Description",
+        "SurvivalGuide_Energy_Content_12"
+      ],
+      "category": "Construction/Item"
+    },
+    {
+      "en": "Townheart",
+      "vi": "Trái tim Cụm bè",
+      "canonical_keys": [
+        "Construction_Townheart_Name"
+      ],
+      "exempt_keys": [
+        "CONSTRUCTION_Townheart_Classic_Name",
+        "CONSTRUCTION_Townheart_Lightboat_Name",
+        "CONSTRUCTION_Townheart_SupportVessel_Name"
+      ],
+      "category": "Construction"
+    },
+    {
+      "en": "Bio-Waste",
+      "vi": "Chất thải sinh học",
+      "canonical_keys": [
+        "ITEM_BioWaste_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Resource"
+    },
+    {
+      "en": "Radio Transmitter",
+      "vi": "Bộ phát sóng vô tuyến",
+      "canonical_keys": [
+        "ITEM_RadioTransmitter_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item"
+    },
+    {
+      "en": "Telemetry Barrel",
+      "vi": "Thùng đo lường từ xa",
+      "canonical_keys": [
+        "ITEM_TelemetryBarrel_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item"
+    },
+    {
+      "en": "Gas Bags",
+      "vi": "Túi trữ khí",
+      "canonical_keys": [
+        "ITEM_GasBags_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Upgrade"
+    },
+    {
+      "en": "Jelly Fishballs",
+      "vi": "Cá viên sứa dẻo",
+      "canonical_keys": [
+        "ITEM_JellyFishBalls_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Food"
+    },
+    {
+      "en": "Plastic-Wraps",
+      "vi": "Bánh cuốn màng bọc nhựa",
+      "canonical_keys": [
+        "ITEM_PlasticWrapsMeal_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Food"
+    },
+    {
+      "en": "Holy Mackeroli",
+      "vi": "Mì Ý cá thu thần thánh",
+      "canonical_keys": [
+        "Item_HolyMackeroli_Name"
+      ],
+      "exempt_keys": [
+        "DIALOG_Quest_Encounter_RadioTechnician_Line005"
+      ],
+      "category": "Item/Food"
+    },
+    {
+      "en": "Space Meal",
+      "vi": "Suất ăn phi hành gia",
+      "canonical_keys": [
+        "ITEM_SpaceMeal_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Food"
+    },
+    {
+      "en": "In Flavor of a Flood",
+      "vi": "Hương Vị Mùa Nước Nổi",
+      "canonical_keys": [
+        "ITEM_Chef_Cookbook_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Quest"
+    },
+    {
+      "en": "Aluminum Scrap",
+      "vi": "Phế liệu nhôm",
+      "canonical_keys": [
+        "ITEM_AluminumScrap_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Resource"
+    },
+    {
+      "en": "Plastic Junk",
+      "vi": "Rác nhựa phế liệu",
+      "canonical_keys": [
+        "ITEM_PlasticJunk_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Resource"
+    },
+    {
+      "en": "Wood Junk",
+      "vi": "Phế liệu gỗ",
+      "canonical_keys": [
+        "ITEM_WoodJunk_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Resource"
+    },
+    {
+      "en": "Electric Scrap",
+      "vi": "Phế liệu điện tử",
+      "canonical_keys": [
+        "Item_ElectricScrap_Name",
+        "ITEM_ElectricJunk_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Resource"
+    },
+    {
+      "en": "Floater",
+      "vi": "Phao nổi",
+      "canonical_keys": [
+        "Item_PlasticBuoyant_Name"
+      ],
+      "exempt_keys": [
+        "ITEM_CompositeBuoyant_Name"
+      ],
+      "category": "Item/Resource"
+    },
+    {
+      "en": "Cooked Fish",
+      "vi": "Cá nấu chín",
+      "canonical_keys": [
+        "Item_CookedFish_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Item/Food"
+    },
+    {
+      "en": "Ladders",
+      "vi": "Thang leo",
+      "canonical_keys": [
+        "ITEM_Ladders_Name"
+      ],
+      "exempt_keys": [
+        "Background_Past_CraftingFishing_Description"
+      ],
+      "category": "Item"
+    },
+    {
+      "en": "Animal Chow",
+      "vi": "Thức ăn chăn nuôi",
+      "canonical_keys": [
+        "Term_AnimalFeed"
+      ],
+      "exempt_keys": [
+        "Term_AnimalFeed_Simple"
+      ],
+      "category": "Item/Resource"
+    },
+    {
+      "en": "Broadcasting Tower",
+      "vi": "Tháp phát sóng",
+      "canonical_keys": [
+        "LANDMARK_Quest_RadioTower_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Landmark"
+    },
+    {
+      "en": "Fish Bait Shack",
+      "vi": "Lán mồi câu cá",
+      "canonical_keys": [
+        "LANDMARK_Quest_FishbaitShop_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Landmark"
+    },
+    {
+      "en": "Old Church",
+      "vi": "Nhà thờ cổ",
+      "canonical_keys": [
+        "Landmark_Rural_ChurchOld_Name",
+        "QUEST_OBJECTIVE_MoveToScout"
+      ],
+      "exempt_keys": [],
+      "category": "Landmark"
+    },
+    {
+      "en": "Polluted Woods",
+      "vi": "Rừng ô nhiễm",
+      "canonical_keys": [
+        "Landmark_PollutedWoods_Forest_Name",
+        "REGION_Type_PollutedWoods"
+      ],
+      "exempt_keys": [],
+      "category": "Landmark/Region"
+    },
+    {
+      "en": "Rural Ruins",
+      "vi": "Tàn tích làng quê",
+      "canonical_keys": [
+        "Landmark_Rural_VillageRuins_Name",
+        "REGION_Type_Rural"
+      ],
+      "exempt_keys": [],
+      "category": "Landmark/Region"
+    },
+    {
+      "en": "Polluted Stream",
+      "vi": "Dòng hải lưu ô nhiễm",
+      "canonical_keys": [
+        "QUEST_PollutionBelt_Title"
+      ],
+      "exempt_keys": [
+        "CONSTRUCTION_OzoneShield_Description"
+      ],
+      "category": "Region/Story"
+    },
+    {
+      "en": "Musselmouths",
+      "vi": "Hội chứng Miệng Vẹm",
+      "canonical_keys": [
+        "Disease_Hunger_Name"
+      ],
+      "exempt_keys": [
+        "Disease_Musselmouths_Description"
+      ],
+      "category": "Disease"
+    },
+    {
+      "en": "Smogbreath",
+      "vi": "Hơi Thở Khói Độc",
+      "canonical_keys": [
+        "Disease_Morale_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Disease"
+    },
+    {
+      "en": "Spongehead",
+      "vi": "Đầu Xốp Nở",
+      "canonical_keys": [
+        "Disease_Thirst_Name"
+      ],
+      "exempt_keys": [],
+      "category": "Disease"
+    },
+    {
+      "en": "Weight",
+      "vi": "Trọng lượng",
+      "canonical_keys": [
+        "Term_Weight",
+        "Tutorial_Weight_Title",
+        "Tooltip_ItemWeight"
+      ],
+      "exempt_keys": [
+        "TERM_TownWeight_WeightCapacity",
+        "TERM_TownWeight_WeightTier",
+        "Construction_TownTugger_Description",
+        "QUEST_Specialist_Engineer_Basics_Description",
+        "QUEST_Specialist_Engineer_DistressSignal_Rescue_Description",
+        "DIALOG_RadioSignals_Engineer_Received_01",
+        "DIALOG_Quest_Specialist_Engineer_DistressSignal_Rescue_Line005",
+        "RESEARCH_NODE_Tugging_Title",
+        "UI_TownWeight_NextWeightThreshold",
+        "SurvivalGuide_TownMovement_Content_03",
+        "SurvivalGuide_TownMovement_Content_04"
+      ],
+      "category": "UI/Mechanic"
+    },
+    {
+      "en": "Fishing Boat",
+      "vi": "Thuyền câu cá",
+      "canonical_keys": [
+        "Boat_FishingBoat_Name",
+        "Term_FishingBoat"
+      ],
+      "exempt_keys": [],
+      "category": "Boat/UI"
+    },
+    {
+      "en": "Fishing Marker",
+      "vi": "Mốc đánh cá",
+      "canonical_keys": [
+        "Term_ContextBuoyMarker_FishingBuoy",
+        "Input_PlaceFishBoatBuoy"
+      ],
+      "exempt_keys": [],
+      "category": "UI/Marker"
+    },
+    {
+      "en": "Buoy Marker",
+      "vi": "Phao tiêu định hướng",
+      "canonical_keys": [
+        "Term_BuoyMarkers",
+        "UI_BuoyMarker"
+      ],
+      "exempt_keys": [],
+      "category": "UI/Marker"
+    },
+    {
+      "en": "Daily Reports",
+      "vi": "Báo cáo Hằng ngày",
+      "canonical_keys": [
+        "LABEL_MENU_DAILYREPORTS_TITLE",
+        "Input_OpenDailyReports"
+      ],
+      "exempt_keys": [
+        "Notification_DailyReportAvailable",
+        "Notification_DailyReportAvailable_Multiple"
+      ],
+      "category": "UI"
+    },
+    {
+      "en": "Focus House",
+      "vi": "Khóa camera vào công trình",
+      "canonical_keys": [
+        "Input_FocusHouse"
+      ],
+      "exempt_keys": [],
+      "category": "UI/Input"
+    },
+    {
+      "en": "Inventory",
+      "vi": "Kho đồ",
+      "canonical_keys": [
+        "UI_Inventory",
+        "Input_OpenInventory"
+      ],
+      "exempt_keys": [
+        "GEN_GAME_INVENTORY",
+        "GEN_GAME_INVENTORY_CAPACITY",
+        "GEN_GAME_INVENTORY_FULL",
+        "Tooltip_Inventory",
+        "Tooltip_ErrorHaulingExportBlocked",
+        "SurvivalGuide_TownMovement_Content_04"
+      ],
+      "category": "UI"
+    },
+    {
+      "en": "Drifter",
+      "vi": "Cư dân bè",
+      "canonical_keys": [
+        "Term_Drifter",
+        "Term_Drifter_Plural"
+      ],
+      "exempt_keys": [
+        "UI_AssignmentTemplate_Name"
+      ],
+      "category": "Entity"
+    },
+    {
+      "en": "Eel-ectricity",
+      "vi": "Điện Lươn",
+      "canonical_keys": [
+        "SurvivalGuide_Energy_Content_13"
+      ],
+      "exempt_keys": [
+        "Construction_ElectroCrafter_Name",
+        "Construction_ElectroCrafter_Advanced_Name"
+      ],
+      "category": "Mechanic/Resource"
+    },
+    {
+      "en": "A Know-It-All Fix-It-All",
+      "vi": "Biết Tuốt Sửa Tuốt",
+      "canonical_keys": [
+        "ACHIEVEMENT_Specialist_Rescued_Engineer_Title",
+        "QUEST_Specialist_Engineer_DistressSignal_Rescue_Title"
+      ],
+      "exempt_keys": [],
+      "category": "Quest/Achievement"
+    },
+    {
+      "en": "A Sign of Life",
+      "vi": "Dấu Hiệu Sự Sống",
+      "canonical_keys": [
+        "ACHIEVEMENT_Rescue_Drifter_Title",
+        "QUEST_Encounter_SupermarketMeetup_Title"
+      ],
+      "exempt_keys": [],
+      "category": "Quest/Achievement"
+    },
+    {
+      "en": "A Space-Ship!",
+      "vi": "Một Con Tàu Vũ Trụ Đích Thực!",
+      "canonical_keys": [
+        "ACHIEVEMENT_Quest_Spaceship_Title",
+        "QUEST_Main_SpaceshipModules_Title"
+      ],
+      "exempt_keys": [],
+      "category": "Quest/Achievement"
+    },
+    {
+      "en": "On Air and Water",
+      "vi": "Sóng Trên Mặt Biển",
+      "canonical_keys": [
+        "ACHIEVEMENT_Quest_RadioStation_Title",
+        "QUEST_Encounter_RadioTechnician_Title"
+      ],
+      "exempt_keys": [],
+      "category": "Quest/Achievement"
+    },
+    {
+      "en": "The Soil Survivor",
+      "vi": "Người Giữ Mầm Đất",
+      "canonical_keys": [
+        "ACHIEVEMENT_Specialist_Rescued_Farmer_Title",
+        "QUEST_Specialist_Farmer_Basics_Title"
+      ],
+      "exempt_keys": [],
+      "category": "Quest/Achievement"
+    }
+  ]
+}

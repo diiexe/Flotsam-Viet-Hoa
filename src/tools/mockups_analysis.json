@@ -1,0 +1,22 @@
+[
+  {
+    "raw": "Well this is a mockup description! It's intent is to test the UI element where this belongs.",
+    "norm": "Well this is a mockup description! It's intent is to test the UI element where this belongs."
+  },
+  {
+    "raw": "Well this is a mockup description! It's intent is to test the UI element where this belongs. ",
+    "norm": "Well this is a mockup description! It's intent is to test the UI element where this belongs. "
+  },
+  {
+    "raw": "Well this is a mockup description! It's intent is to test the UI element where this belongs. Maybe this needs a content size fitter? Oh and by the way, do not override the font settings! That would defeat the purpose of this pretty little prefab.\n\nAnyway, have fun!",
+    "norm": "Well this is a mockup description! It's intent is to test the UI element where this belongs. Maybe this needs a content size fitter? Oh and by the way, do not override the font settings! That would defeat the purpose of this pretty little prefab. Anyway, have fun!"
+  },
+  {
+    "raw": "Well this is a mockup description! It's intent is to test the UI element where this belongs. Maybe this needs to be localized, or get a tooltip? Oh and by the way, do not override the font settings! That would defeat the purpose of this pretty little prefab.\n\nAnyway, have fun!",
+    "norm": "Well this is a mockup description! It's intent is to test the UI element where this belongs. Maybe this needs to be localized, or get a tooltip? Oh and by the way, do not override the font settings! That would defeat the purpose of this pretty little prefab. Anyway, have fun!"
+  },
+  {
+    "raw": "Well this is a mockup description! It's intent is to test the UI element where this belongs. Maybe this needs to be localized, or get a tooltip? Oh and by the way, do not override the font settings! That would defeat the purpose of this pretty little prefab.\n\nAnyway, have fun!Anyway, have fun!Anyway, have fun!Anyway, have fun!Anyway, have fun!Anyway, have fun!\n",
+    "norm": "Well this is a mockup description! It's intent is to test the UI element where this belongs. Maybe this needs to be localized, or get a tooltip? Oh and by the way, do not override the font settings! That would defeat the purpose of this pretty little prefab. Anyway, have fun!Anyway, have fun!Anyway, have fun!Anyway, have fun!Anyway, have fun!Anyway, have fun! "
+  }
+]
