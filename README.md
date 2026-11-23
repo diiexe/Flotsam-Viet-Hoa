@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Tiến_độ-100%25-21262d?style=for-the-badge" alt="Tiến độ" />
   <img src="https://img.shields.io/badge/Dịch_thuật-AI_Translation-21262d?style=for-the-badge" alt="Dịch thuật" />
   <img src="https://img.shields.io/badge/Mục_đích-Cá_nhân_&_Phi_thương_mại-21262d?style=for-the-badge" alt="Mục đích" />
+  <a href="https://discord.gg/4TYPScgwA6"><img src="https://img.shields.io/badge/Discord-Cộng_đồng-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
 Bản **Việt hóa Flotsam** (Bản dịch Tiếng Việt / Vietsub / Vietnamese Localization) hoàn chỉnh 100% (3.263 chuỗi) kèm font tiếng Việt đầy đủ dành cho tựa game sinh tồn **Flotsam (v1.1.0f5)** trên PC (Epic Games Store & Steam).
@@ -119,6 +120,12 @@ Flotsam/
 ├── RELEASE_NOTES.md
 └── README.md
 ```
+
+---
+
+## Báo lỗi & Cộng đồng
+
+Nếu gặp lỗi chính tả, câu dịch chưa tự nhiên hoặc lỗi hiển thị trong lúc chơi, bạn có thể tạo một **Issue** trên repo này kèm ảnh chụp màn hình hoặc trao đổi trực tiếp tại máy chủ Discord: https://discord.gg/4TYPScgwA6
 
 ---
 
